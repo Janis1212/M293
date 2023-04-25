@@ -1,20 +1,25 @@
 body {
-    /* background-image: url(../images/Home.png) */
     background-color: #3D3D41;
-
 }
+
+/* Text */
+
+.welcome-text {
+    padding: 100px;
+    color: white;
+    max-width: 60%;
+}
+
+/* Navigation */
 
 .button-menu {
     float: right;
     margin-top: -6px;
 }
 
-
-/* Navigation */
 nav {
     background-color: transparent;
     overflow: hidden;
-
 }
 
 nav a {
@@ -23,21 +28,12 @@ nav a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-
 }
 
 nav a:hover {
     /* background-color: #ddd; */
     color: #88979E;
-
 }
-
-
-
-
-
-
-/* Sidenavigation Menu */
 
 .sidenav {
     height: 100%;
@@ -52,9 +48,7 @@ nav a:hover {
     transition: 0.5s;
 }
 
-/*Sidenavigation*/
-
-/* Navigationmenu links */
+/* Navigationmenu link */
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -78,7 +72,7 @@ nav a:hover {
     margin-left: 50px;
 }
 
-/* For smaller screens (height less than 450px) */
+/* For smaller screens */
 @media screen and (max-height: 450px) {
     .sidenav {
         padding-top: 15px;
@@ -87,4 +81,30 @@ nav a:hover {
     .sidenav a {
         font-size: 18px;
     }
+}
+
+/* Buttons */
+
+
+.button-1 {
+    background-color: #fff;
+    border: 0 solid #3D3D41;
+    border-radius: 1.5rem;
+    box-sizing: border-box;
+    width: 10rem;
+    color: #3D3D41;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1;
+    padding: 1rem 1.6rem;
+    margin-top: 1rem;
+    text-align: center;
+    box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+}
+
+.button-1:hover {
+    background-color: #1e293b;
+    color: #fff;
 }
